@@ -1,0 +1,16 @@
+section {
+  height: 100vh;
+}
+
+/* About me image */
+.about__me-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--primary-color),
+    transparent
+  );
+}
