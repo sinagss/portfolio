@@ -12,46 +12,54 @@ const About = () => {
       <h2>About Me</h2>
 
       {/* Picture of Hero for about section */}
-      <div className="about__me-image">
-        <img src={ABOUT} alt="About" />
-      </div>
-
-      {/* About Cards */}
-      <div className="about__content">
-        <div className="about__cards">
-          {/* Experience Card */}
-          <article className="about__card">
-            <FaAward className="about__icon" />
-            <h5>Experience</h5>
-            <small>12+ Years Working</small>
-          </article>
-
-          {/* Clients Card */}
-          <article className="about__card">
-            <FiUsers className="about__icon" />
-            <h5>Clients</h5>
-            <small>12 Clients</small>
-          </article>
-
-          {/* Projects Card */}
-          <article className="about__card">
-            <VscFolderLibrary className="about__icon" />
-            <h5>Projects</h5>
-            <small>30+ Completed Projects</small>
-          </article>
+      <div className="container about__container">
+        <div className="about__me">
+          <div className="about__me-image">
+            <img src={ABOUT} alt="About" />
+          </div>
         </div>
-        {/* Details Paragraph */}
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
-          excepturi modi doloribus enim, nisi possimus fugit veritatis impedit
-          voluptatem at dolor nemo corrupti, qui praesentium cumque voluptate
-          officiis. Suscipit, mollitia?
-        </p>
 
-        {/* Contact Button */}
-        <a href="#contact" className="btn btn-primary">
-          Let's Talk
-        </a>
+        {/* About Cards */}
+        <div className="about__content">
+          <div className="about__cards">
+            {/* Experience Card */}
+            <article className="about__card">
+              <FaAward className="about__icon" />
+              <h5>Experience</h5>
+              <small>12+ Years Working</small>
+            </article>
+
+            {/* Clients Card */}
+            <article className="about__card">
+              <FiUsers className="about__icon" />
+              <h5>Clients</h5>
+              <small>50+ Clients</small>
+            </article>
+
+            {/* Projects Card */}
+            <article className="about__card">
+              <VscFolderLibrary className="about__icon" />
+              <h5>Projects</h5>
+              <small>200+ Completed Projects</small>
+            </article>
+          </div>
+          {/* Details Paragraph */}
+          <p>
+            I'm a versatile professional and Professional Scrum Master with 12+
+            years’ experience, including 6 years’ managing projects of all
+            sizes, developing key deliverables, and driving project success.
+            Excels at taking on extreme challenges, navigating organizational
+            dynamics, and forecasting and dismantling roadblocks to success.
+            Demonstrated expertise in using extremely large, complex data sets
+            to draw conclusions and effectively communicate findings with
+            technical, non-technical audiences and stakeholders.
+          </p>
+
+          {/* Contact Button */}
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
+        </div>
       </div>
     </section>
   );

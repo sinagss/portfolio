@@ -5,7 +5,7 @@
   padding: 0;
   border: 0.01rem; /* to see borders */
   border-color: #fc020270; /* to see borders */
-  border-style: dotted; /* to see borders */
+  border-style: none; /* to see borders */
   outline: none;
   box-sizing: border-box;
   list-style: none;
