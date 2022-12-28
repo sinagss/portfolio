@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./header.css";
 import CTA from "./CTA";
-import HERO from '../../assets/me.png'
+import HERO from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
+  const [activeNav, setActiveNav] = useState("#home");
   return (
     <header id="home">
       <div className="container header__container">
@@ -24,7 +25,13 @@ const Header = () => {
         </div>
 
         {/* Scroll down link*/}
-        <a href="#contact" className="scroll__down">Scroll Down</a>
+        <a
+          href="#contact"
+          className="scroll__down"
+          onClick={() => setActiveNav("#contact")}
+        >
+          Scroll Down
+        </a>
       </div>
     </header>
   );

@@ -15,7 +15,7 @@ const cetificates = () => {
             <FaCertificate className="certificate__details-icon" />
             <div>
               <h4>Professional Scrum Master</h4>
-              <small className="text-light">Certicate Holder</small>
+              <small className="text-light">Certificate Holder</small>
             </div>
           </article>
           {/* PRINCE2 certification */}

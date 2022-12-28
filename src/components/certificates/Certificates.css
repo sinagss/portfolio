@@ -29,3 +29,20 @@
     color: var(--color-primary);
 }
 
+/* ================== MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+    .certificates__content {
+        grid-template-columns: 1fr;
+    }
+
+}
+/* ================== MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+    .certificates__content {
+        grid-template-columns: 1fr;
+    }
+
+    .certificate__details {
+        padding: 2rem;
+    }
+}
