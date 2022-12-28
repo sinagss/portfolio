@@ -125,7 +125,6 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        <div className="experience__backend"></div>
       </div>
     </section>
   );
