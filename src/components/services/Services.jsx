@@ -13,33 +13,33 @@ const Services = () => {
         {/* First service card */}
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Project Management</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Resource Coordination</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Process Improvement</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Agile and Scrum Methodologies</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Risk Mitigation</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Requirements Gathering and Analysis</p>
             </li>
           </ul>
         </article>
@@ -47,33 +47,33 @@ const Services = () => {
         {/* Sercond service card */}
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Leadership</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Analytical Decision Making</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Communication</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Delegation</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Creative Problem-Solving</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Cross-functional Team Leadership & Collaboration</p>
             </li>
           </ul>
         </article>
@@ -81,23 +81,23 @@ const Services = () => {
         {/* Third service card */}
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Data Analysis & Reporting</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Data Visualization & Dashboards</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Design and Creation of Management Reports</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Database Design and Management</p>
             </li>
 
             <li>

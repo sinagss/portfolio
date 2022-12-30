@@ -40,7 +40,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Database Optimization</h4>
+                <h4>Database Design & Management</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -68,6 +68,14 @@ const Experience = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+            
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Tableau</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -79,7 +87,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>TSQL</h4>
+                <h4>Leadership</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -120,6 +128,22 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>RUP project Management</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Business Analysis</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Decision Making</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>

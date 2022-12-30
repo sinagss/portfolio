@@ -8,7 +8,7 @@
   background: var(--color-bg-variant);
   border-radius: 0 0 2rem 2rem;
   border: 1px solid transparent;
-  height: fit-content;
+  height: 500px;
   transition: var(--transition);
   box-shadow: var(--box-shadow);
 }
@@ -47,6 +47,7 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 0.8rem;
+  word-wrap: break-word;
 }
 
 .service__list-icon {
@@ -69,6 +70,7 @@
 
   .service {
     height: auto;
+    width: 500px;
   }
 }
 
@@ -77,5 +79,10 @@
   .services__container {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+
+  .service {
+    height: auto;
+    width: 500px;
   }
 }
