@@ -30,3 +30,11 @@ nav a.active {
     background-color: var(--color-bg);
     color: var(--color-light);
 }
+
+  /* ================== MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 300px) {
+        nav {
+            gap: 0.01rem;
+            border-radius: 0rem;
+        }
+}
