@@ -1,19 +1,27 @@
 .client__avatar {
-    width: 4rem;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0 auto 1rem;
-    border: 0.4rem solid var(--color-primary-variant);
+  width: 8rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  border: 0.4rem solid #ffff;
 }
 
 .testimonial {
+  display: flex;
+  flex-direction: column;
   background: var(--color-bg-variant);
-  text-align: center;
-  padding: 2rem;
+  /* text-align: justify; */
+  padding: 1rem;
   border-radius: 2rem;
   user-select: none;
-  box-shadow: var(--box-shadow);
+  /* box-shadow: var(--box-shadow); */
+  overflow: hidden;
+}
+
+.testimonials__container {
+  margin: 2rem;
+  cursor: default;
 }
 
 .client__review {
@@ -40,4 +48,76 @@
   .client__review {
     width: var(--container-width-sm);
   }
+}
+
+/* ========================== Swiper CSS ========================= */
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  /* background-color: rgb(206, 60, 60); */
+  background-color: #5f5f88;
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(76, 124, 163);
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(78, 145, 117);
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(160, 120, 68);
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+
+.swiper-slide:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}
+
+/* ============= other css from swiper ============================= */
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem 1rem 1rem;
+  overflow: hidden;
+}
+
+.mySwiper {
+    height: fit-content;
+    max-width: 100vh;
 }
