@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 6rem;
   overflow: hidden;
 }
 
@@ -8,6 +8,8 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ======== Call to action buttons (CTA) ======== */
@@ -25,7 +27,7 @@ header {
   align-items: center;
   position: absolute;
   gap: 0.8rem;
-  bottom: 3rem;
+  bottom: 3.5rem;
   left: 0;
 }
 
@@ -74,5 +76,11 @@ header {
 
   .scroll__down {
     display: none;
+  }
+
+  .header__socials {
+    flex-direction: row;
+    top: 50%;
+    
   }
 }
