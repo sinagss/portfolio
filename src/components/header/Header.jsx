@@ -27,10 +27,10 @@ const Header = () => {
         {/* Scroll down link*/}
         <a
           href="#contact"
-          className="scroll__down"
+          className="scroll__down >"
           onClick={() => setActiveNav("#contact")}
         >
-          Scroll Down
+          Scroll Down {'>'}
         </a>
       </div>
     </header>
