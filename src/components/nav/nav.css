@@ -31,6 +31,12 @@ nav a.active {
   color: var(--color-bg);
 }
 
+nav-title p {
+  font-size: 0.5rem;
+  color: red;
+  
+}
+
 /* ================== MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 400px) {
   nav {

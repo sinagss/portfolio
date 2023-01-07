@@ -12,13 +12,15 @@ const Nav = () => {
   return (
     <nav>
       {/* Home button */}
-      <a
-        href="#home"
-        onClick={() => setActiveNav("#home")}
-        className={activeNav === "#home" ? "active" : ""}
-      >
-        <AiOutlineHome />
-      </a>
+      <div className="nav-title">
+        <a
+          href="#home"
+          onClick={() => setActiveNav("#home")}
+          className={activeNav === "#home" ? "active" : ""}
+        >
+          <AiOutlineHome />
+        </a>
+      </div>
 
       {/* About button */}
       <a
