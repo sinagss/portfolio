@@ -114,5 +114,7 @@
   }
 
   .about__content p {
+    text-align: left;
+    text-justify: auto;
   }
 }

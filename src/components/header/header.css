@@ -10,6 +10,46 @@ header {
   position: relative;
 }
 
+.typed_container{
+  font-size: 24px;
+  display: grid;
+  place-items: center;
+  width: fit-content;
+}
+
+.typed {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid;
+  width: 0;
+  animation: typing 3s steps(30, end) forwards, blinking 2s infinite;
+  animation-iteration-count: infinite;
+}
+  
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blinking {
+  0% {border-color: transparent}
+  50% {border-color: var(--color-primary)}
+  100% {border-color: transparent}
+}
+
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
 /* ======== Call to action buttons (CTA) ======== */
 .cta {
   margin-top: 2.5rem;

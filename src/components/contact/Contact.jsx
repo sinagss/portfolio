@@ -43,7 +43,7 @@ const Contact = () => {
           <article className="contact__option">
             <MdEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>maryam.tahbaz65@gmail.com</h5>
+            {/* <h5>maryam.tahbaz65@gmail.com</h5> */}
             <a
               href="mailto:maryam.tahbaz65@gmail.com"
               target={"_blank"}
@@ -57,7 +57,7 @@ const Contact = () => {
           <article className="contact__option">
             <FaTelegramPlane className="contact__option-icon" />
             <h4>Telegram</h4>
-            <h5>@maryamTbz</h5>
+            {/* <h5>@maryamTbz</h5> */}
             <a href="https://t.me/maryamTbz" target={"_blank"} rel="noreferrer">
               Send a message
             </a>
@@ -67,7 +67,7 @@ const Contact = () => {
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
-            <h5>+989366730866</h5>
+            {/* <h5>+989366730866</h5> */}
             <a
               href="https://wa.me/+989366730866"
               target={"_blank"}

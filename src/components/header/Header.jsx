@@ -10,7 +10,9 @@ const Header = () => {
     <header id="home">
       <div className="container header__container">
         <h5>Hello I'm</h5>
-        <h1>Maryam Tahbaz</h1>
+        <div className="type_container">
+          <h1 className="typed">Maryam Tahbaz</h1>
+        </div>
         <h5 className="text-light">Data Analyst</h5>
 
         {/* Call To Action buttons */}
@@ -30,7 +32,7 @@ const Header = () => {
           className="scroll__down >"
           onClick={() => setActiveNav("#contact")}
         >
-          Scroll Down {'>'}
+          Scroll Down {">"}
         </a>
       </div>
     </header>
