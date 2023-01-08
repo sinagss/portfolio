@@ -11,12 +11,12 @@ const HeaderSocials = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <BsLinkedin />
+        <BsLinkedin className="social-icon__linkedin" />
       </a>
 
       {/* Github Icon */}
       <a href="http://github.com" target="_blank" rel="noreferrer">
-        <FaGithubSquare />
+        <FaGithubSquare className="social-icon__github" />
       </a>
     </div>
   );
