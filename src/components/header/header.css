@@ -124,6 +124,13 @@ header {
 
 /* ================== MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px) {
+
+  @media screen and (max-height: 700px) {
+    header {
+      padding-top: 5rem;
+    }
+  }
+
   header {
     height: 100vh;
     overflow: hidden;
