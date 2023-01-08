@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./header.css";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
-import TrackVisibility from "react-on-screen";
 import Typewriter from "typewriter-effect";
 
 const Header = () => {

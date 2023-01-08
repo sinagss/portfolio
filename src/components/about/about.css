@@ -10,12 +10,12 @@
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
-  background: linear-gradient(
+  /* background: linear-gradient(
     45deg,
     transparent,
     var(--color-primary),
     transparent
-  );
+  ); */
   display: grid;
   place-items: center;
 }
@@ -24,12 +24,33 @@
 .about__me-image {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(10deg);
-  transition: var(--transition);
+  /* transform: rotate(10deg); */
+  /* transition: var(--transition); */
 }
 
-.about__me-image:hover {
+/* .about__me-image:hover {
   transform: rotate(0deg);
+} */
+
+.about__me-image__animated {
+  border-radius: 2rem;
+  color: var(--color-primary);
+  background: linear-gradient(
+    -45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  animation: rotation linear 0.8s 1;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(40deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }
 
 .about__me-image-div {

@@ -4,20 +4,43 @@ import ABOUT from "../../assets/me-about.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import handleViewport from "react-in-viewport";
+
+const Block = (props) => {
+  const { inViewport, forwardedRef } = props;
+  const className = inViewport
+    ? "about__me-image__animated"
+    : "about__me-image";
+  return (
+    <div className="viewport-block" ref={forwardedRef}>
+      <div className={className}>
+        <img src={ABOUT} alt="About" />
+      </div>
+    </div>
+  );
+};
+
+const ViewportBlock = handleViewport(Block /** options: {}, config: {} **/);
+
+const Component = (props) => (
+  <div>
+    <ViewportBlock
+      onEnterViewport={() => console.log("enter")}
+      onLeaveViewport={() => console.log("leave")}
+    />
+  </div>
+);
 
 const About = () => {
   return (
     <section id="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
-
       {/* Picture of Hero for about section */}
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <div className="about__me-image-div">
-              <img src={ABOUT} alt="About" />
-            </div>
+            <Component />
           </div>
         </div>
 
