@@ -123,6 +123,57 @@ img {
   object-fit: cover;
 }
 
+/* ====================== COSTOM BUTTON ============================= */
+.button2 {
+  width: 10em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge var(--color-primary);
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-weight: bold; */
+}
+
+.button2::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: var(--color-bg);
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.button2::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: var(--color-bg);
+  transition: 0.5s;
+}
+
+.button2:hover::before,
+.button2:hover::after {
+  transform: scale(0);
+}
+
+.button2:hover {
+  box-shadow: inset 0px 0px 25px #1479ea;
+}
+
 /* ================== MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
   .container {
